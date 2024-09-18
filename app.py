@@ -63,9 +63,7 @@ def main():
     html_temp = """ 
     
     <h1 style="color:green;text-align:center;padding:0px;margin:0px">Fertilizer Prediction</h1>  
-    </div>  
-    </div> 
-    <br> 
+  
     """  
     st.markdown(html_temp, unsafe_allow_html=True)   
     
