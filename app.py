@@ -21,6 +21,9 @@ footer {visibility: hidden;}
     footer {
         display: none;
     }
+    .st-logo {
+        display: none;
+    }
 }
 </style>
 """
