@@ -17,6 +17,11 @@ hide_st_style = """
 <style>
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
+@media only screen and (max-width: 768px) {
+    footer {
+        display: none;
+    }
+}
 </style>
 """
 
