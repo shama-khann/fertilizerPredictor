@@ -110,8 +110,13 @@ def main():
     st.success('The fertilizer needed is : {}'.format(result))  
     
    
-    if st.button("About"):
+  if st.button("About"):
         st.markdown("Fertilizers are substances added to the soil to enhance plant growth by providing essential nutrients. Fertilizer prediction uses machine learning models like logistic regression to analyze data on soil conditions, crop types, and historical yields to predict the optimal fertilizer type  for a specific agricultural field. This helps farmers maximize crop productivity and reduce fertilizer waste.")
+        # Load the image
+        image = Image.open("fertilizers bg.jpg")
+
+# Display the image
+        st.image(image,width=200)
         st.text("Built with Streamlit")
         st.text("By 10320 Shama Khan")  
 
